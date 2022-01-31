@@ -12,7 +12,7 @@ function selecionarComida(classeBotao) {
 }
 
 function selecionarBebida(classeBotao) {
-    const selecionado = document.querySelector(".botaoclicado");
+    const selecionado = document.querySelector(".tamanho2 .botaoclicado");
     if (selecionado !== null) {
         selecionado.classList.remove("botaoclicado");
     }
