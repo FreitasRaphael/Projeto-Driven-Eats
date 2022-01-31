@@ -24,19 +24,19 @@
                 <span>Primeiro, seu prato</span>
             </div>
             <div class="opcoes">
-                <div class="opcao caixa1 frango">
+                <div class="opcao caixa tamanho1 frango" onclick="selecionarComida('frango')">
                     <img src="frango_yin_yang 1.svg" />
                     <h3>Frango Ying Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
                     <p>R$ 14,90</p>
                 </div>
-                <div class="opcao caixa1 bife">
+                <div class="opcao caixa tamanho1 bife" onclick="selecionarComida('bife')">
                     <img src="frango_yin_yang 1.svg" />
                     <h3>Bife à Parmegiana</h3>
                     <h4>Com aquele queijo e presunto por cima</h4>
                     <p>R$ 16,50</p>
                 </div>
-                <div class="opcao caixa1 salmao">
+                <div class="opcao caixa tamanho1 salmao" onclick="selecionarComida('salmao')">
                     <img src="frango_yin_yang 1.svg" />
                     <h3>Salmão Grelhado</h3>
                     <h4>Já comeu isso no rodízio de japonês?</h4>
@@ -49,19 +49,19 @@
                 <span>Agora, sua bebida</span>
             </div>
             <div class="opcoes">
-                <div class="opcao caixa2 coca">
+                <div class="opcao caixa tamanho2 coca" onclick="selecionarBebida('coca')">
                     <img src="coquinha_gelada 1.svg" />
                     <h3>Coquinha gelada</h3>
                     <h4>Lata 350ml</h4>
                     <p>R$ 4,90</p>
                 </div>
-                <div class="opcao caixa2 tea">
+                <div class="opcao caixa tamanho2 tea" onclick="selecionarBebida('tea')">
                     <img src="coquinha_gelada 1.svg" />
                     <h3>Ice Tea no grau</h3>
                     <h4>Garrafa 300ml</h4>
                     <p>R$ 3,50</p>
                 </div>
-                <div class="opcao caixa2 mate">
+                <div class="opcao caixa tamanho2 mate" onclick="selecionarBebida('mate')">
                     <img src="coquinha_gelada 1.svg" />
                     <h3>Mate Leão Limão</h3>
                     <h4>Copo de 300ml</h4>
@@ -74,19 +74,19 @@
                 <span>Por fim, sua sobremesa</span>
             </div>
             <div class="opcoes">
-                <div class="opcao caixa3 pudim">
+                <div class="opcao caixa tamanho3 pudim" onclick="selecionarSobremesa('pudim')">
                     <img src="pudim 1.svg" />
                     <h3>Pudim</h3>
                     <h4>Apenas pudim</h4>
                     <p>R$ 7,90</p>
                 </div>
-                <div class="opcao caixa3 torta">
+                <div class="opcao caixa tamanho3 torta" onclick="selecionarSobremesa('torta')">
                     <img src="pudim 1.svg" />
                     <h3>Torta Alemã</h3>
                     <h4>Só uma fatia, né?</h4>
                     <p>R$ 6,40</p>
                 </div>
-                <div class="opcao caixa3 frutas">
+                <div class="opcao caixa tamanho3 frutas" onclick="selecionarSobremesa('fruta')">
                     <img src="pudim 1.svg" />
                     <h3>Salada de Frutas</h3>
                     <h4>Nesse calor...</h4>
@@ -96,10 +96,11 @@
         </div>
     </section>
     <footer class="caixabranca">
-        <div class="caixacinza">
+        <div class="caixacinza corCinza" onclick="finalizar()">
             <p>Selecione os 3 itens</p> 
             <p>para fechar o pedido</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
