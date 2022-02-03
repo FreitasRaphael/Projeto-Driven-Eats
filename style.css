@@ -74,6 +74,7 @@ span {
 }
 
 .caixa {
+
     padding-top: 18px;
     padding-left: 14px;
     padding-bottom: 13px;
@@ -104,6 +105,14 @@ span {
 
 .tamanho3 {
     height: 197px;
+}
+
+
+.tick {
+    display: none;
+    position: relative;
+    bottom: 18px;
+    right: 65px;    
 }
 
 
